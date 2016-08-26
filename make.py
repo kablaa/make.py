@@ -9,8 +9,8 @@ def getData(fileName):
     return data
 
 fileName = sys.argv[1]
-sleepTime = 2
 command = ["make",sys.argv[2]]
+sleepTime = 2
 
 data = getData(fileName)
 while True:
